@@ -1,0 +1,169 @@
+(footprint "R_0805"
+  (layer "B.Cu")
+  (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+  (tags "resistor")
+  (property "Reference" "R9"
+    (at 0 1.65 180)
+    (layer "B.SilkS")
+    (hide yes)
+    (uuid "62d872dc-b839-4b6a-b4fc-864dd3d41146")
+    (effects
+      (font
+        (size 1 1)
+        (thickness 0.15))
+      (justify mirror)))
+  (property "Value" "40k"
+    (at 0 -1.65 180)
+    (layer "B.Fab")
+    (uuid "af9abf5a-8790-4dba-b99c-485a6c0df8d0")
+    (effects
+      (font
+        (size 1 1)
+        (thickness 0.15))
+      (justify mirror)))
+  (property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RT0805BRD0740K2L"
+    (at 0 0 180)
+    (layer "B.Fab")
+    (hide yes)
+    (uuid "66117a77-a251-45b4-bf92-cb6fcd91095b")
+    (effects
+      (font
+        (size 1.27 1.27)
+        (thickness 0.15))
+      (justify mirror)))
+  (property "Description" "Резистор постоянный, ГОСТ 2.728 (10×4 мм)"
+    (at 0 0 180)
+    (layer "B.Fab")
+    (hide yes)
+    (uuid "cd9c0b4e-3f48-447f-a016-47b171645ce5")
+    (effects
+      (font
+        (size 1.27 1.27)
+        (thickness 0.15))
+      (justify mirror)))
+  (property ki_fp_filters "R_*")
+  (attr smd)
+  (duplicate_pad_numbers_are_jumpers no)
+  (fp_line
+    (start -0.227064 -0.735)
+    (end 0.227064 -0.735)
+    (stroke
+      (width 0.12)
+      (type solid))
+    (layer "B.SilkS")
+    (uuid "f31a6674-194c-4447-a580-0aea9087218d"))
+  (fp_line
+    (start -0.227064 0.735)
+    (end 0.227064 0.735)
+    (stroke
+      (width 0.12)
+      (type solid))
+    (layer "B.SilkS")
+    (uuid "bf9ba1c2-4bd9-4705-acdd-e24d67eaa831"))
+  (fp_line
+    (start -1.68 -0.95)
+    (end -1.68 0.95)
+    (stroke
+      (width 0.05)
+      (type solid))
+    (layer "B.CrtYd")
+    (uuid "de387d83-4553-49ec-a48c-bfd02e5ddd28"))
+  (fp_line
+    (start -1.68 0.95)
+    (end 1.68 0.95)
+    (stroke
+      (width 0.05)
+      (type solid))
+    (layer "B.CrtYd")
+    (uuid "82c3848a-7cc5-478f-acaa-9895854d0ad1"))
+  (fp_line
+    (start 1.68 -0.95)
+    (end -1.68 -0.95)
+    (stroke
+      (width 0.05)
+      (type solid))
+    (layer "B.CrtYd")
+    (uuid "2eac1493-9f42-4506-8605-49c71ff54899"))
+  (fp_line
+    (start 1.68 0.95)
+    (end 1.68 -0.95)
+    (stroke
+      (width 0.05)
+      (type solid))
+    (layer "B.CrtYd")
+    (uuid "7c60b819-b947-4eca-8667-65053ace0598"))
+  (fp_line
+    (start -1 -0.625)
+    (end -1 0.625)
+    (stroke
+      (width 0.1)
+      (type solid))
+    (layer "B.Fab")
+    (uuid "f466e013-7c5a-4479-aa1b-c5ea83ab563e"))
+  (fp_line
+    (start -1 0.625)
+    (end 1 0.625)
+    (stroke
+      (width 0.1)
+      (type solid))
+    (layer "B.Fab")
+    (uuid "022d0873-9ced-48b8-964c-4a526b058419"))
+  (fp_line
+    (start 1 -0.625)
+    (end -1 -0.625)
+    (stroke
+      (width 0.1)
+      (type solid))
+    (layer "B.Fab")
+    (uuid "86360e08-6c4c-4c56-81de-816c3016656f"))
+  (fp_line
+    (start 1 0.625)
+    (end 1 -0.625)
+    (stroke
+      (width 0.1)
+      (type solid))
+    (layer "B.Fab")
+    (uuid "7c954a8c-1505-4f9c-a730-5181a5e45ae3"))
+  (fp_text user "${REFERENCE}"
+    (at 0 0 180)
+    (layer "B.Fab")
+    (uuid "35838b81-c786-433d-a13e-45323068672c")
+    (effects
+      (font
+        (size 0.5 0.5)
+        (thickness 0.08))
+      (justify mirror)))
+  (pad "1" smd roundrect
+    (at -0.9125 0)
+    (size 1.025 1.4)
+    (layers "B.Cu" "B.Mask" "B.Paste")
+    (roundrect_rratio 0.243902)
+    (pintype "passive")
+    (uuid "0f19dc5a-f0a2-4d8e-a004-768caafdf62b"))
+  (pad "2" smd roundrect
+    (at 0.9125 0)
+    (size 1.025 1.4)
+    (layers "B.Cu" "B.Mask" "B.Paste")
+    (roundrect_rratio 0.243902)
+    (pintype "passive")
+    (uuid "cbd43fc2-7df3-4cb1-ab70-ca79e46d9235"))
+  (embedded_fonts no)
+  (model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+    (offset
+      (xyz 0 0 0))
+    (scale
+      (xyz 1 1 1))
+    (rotate
+      (xyz 0 0 0)))
+  (property "Manufacturer_Part_Number" "RT0805BRD0740K2L"
+    (at 79.142 61.141667 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (hide yes)))
+  (property "Manufacturer" "YAGEO"
+    (at 79.142 61.141667 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (hide yes))))

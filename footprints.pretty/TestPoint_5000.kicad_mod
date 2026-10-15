@@ -1,0 +1,124 @@
+(footprint "TestPoint_5000"
+  (layer "F.Cu")
+  (descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
+  (tags "Through Hole Mount Test Points")
+  (property "Reference" "TP1"
+    (at 0 -2.5 0)
+    (layer "F.SilkS")
+    (hide yes)
+    (uuid "a8b8cbd7-ff90-4cac-a773-f4ad1234e800")
+    (effects
+      (font
+        (size 1 1)
+        (thickness 0.15))))
+  (property "Value" "TestPoint"
+    (at 0 2.5 0)
+    (layer "F.Fab")
+    (uuid "69c57b43-733c-4be0-87d0-a81002bf2696")
+    (effects
+      (font
+        (size 1 1)
+        (thickness 0.15))))
+  (property "Datasheet" "https://www.keyelco.com/pdfs/p33.pdf"
+    (at 0 0 0)
+    (unlocked yes)
+    (layer "F.Fab")
+    (hide yes)
+    (uuid "1c653f7c-70b3-4f77-b5e2-b2044686f511")
+    (effects
+      (font
+        (size 1.27 1.27)
+        (thickness 0.15))))
+  (property "Description" "Индикатор контрольной точки, ГОСТ 2.721 табл. 6а п.7"
+    (at 0 0 0)
+    (unlocked yes)
+    (layer "F.Fab")
+    (hide yes)
+    (uuid "144b103b-3fe3-405d-bf38-523dad0549a0")
+    (effects
+      (font
+        (size 1.27 1.27)
+        (thickness 0.15))))
+  (property "Manufacturer_Part_Number" "5000"
+    (at 0 0 0)
+    (unlocked yes)
+    (layer "F.Fab")
+    (hide yes)
+    (uuid "a7572e54-6a54-407a-a63d-68df4a806794")
+    (effects
+      (font
+        (size 1 1)
+        (thickness 0.15))))
+  (property ki_fp_filters "TestPoint*")
+  (units
+    (unit
+      (name "A")
+      (pins "1")))
+  (attr through_hole)
+  (duplicate_pad_numbers_are_jumpers no)
+  (fp_circle
+    (center 0 0)
+    (end 1.4 0)
+    (stroke
+      (width 0.12)
+      (type solid))
+    (fill no)
+    (layer "F.SilkS")
+    (uuid "d24026fc-bc2c-4c0c-a459-587ac9084e2a"))
+  (fp_circle
+    (center 0 0)
+    (end 1.65 0)
+    (stroke
+      (width 0.05)
+      (type solid))
+    (fill no)
+    (layer "F.CrtYd")
+    (uuid "3d50cb0e-9974-4828-a0fc-0f56b58ddbba"))
+  (fp_rect
+    (start -0.75 -0.25)
+    (end 0.75 0.25)
+    (stroke
+      (width 0.1)
+      (type default))
+    (fill no)
+    (layer "F.Fab")
+    (uuid "f493b447-c8b9-4251-aa46-1ea240d05c46"))
+  (fp_circle
+    (center 0 0)
+    (end 1.25 0)
+    (stroke
+      (width 0.1)
+      (type solid))
+    (fill no)
+    (layer "F.Fab")
+    (uuid "d2847901-9b64-401a-b624-7db4152684e0"))
+  (fp_text user "${REFERENCE}"
+    (at 0 -2.5 0)
+    (layer "F.Fab")
+    (uuid "40eab363-ce64-4a36-9751-c98890e85b20")
+    (effects
+      (font
+        (size 1 1)
+        (thickness 0.15))))
+  (pad "1" thru_hole circle
+    (at 0 0)
+    (size 2 2)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (remove_unused_layers no)
+    (pintype "passive")
+    (uuid "c35d07c7-14b3-414e-b5db-2e186931d9fc"))
+  (embedded_fonts no)
+  (model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.step"
+    (offset
+      (xyz 0 0 0))
+    (scale
+      (xyz 1 1 1))
+    (rotate
+      (xyz 0 0 0)))
+  (property "Manufacturer" "Keystone Electronics"
+    (at 75.275 53.371 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (hide yes))))
